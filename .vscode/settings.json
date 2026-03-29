@@ -1,0 +1,28 @@
+{
+{
+  // ⭐ 只保留最基础错误（不会烦）
+  "python.analysis.typeCheckingMode": "basic",
+
+  // ⭐ 关闭烦人的提示
+  "editor.hover.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestions": false,
+
+  // ⭐ 不自动弹补全（你自己写）
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.inlineSuggest.enabled": false,
+
+  // ⭐ 关掉自动导入建议（最烦）
+  "python.analysis.autoImportCompletions": false,
+
+  // ⭐ 只检查当前文件（不卡）
+  "python.analysis.diagnosticMode": "openFilesOnly",
+
+  // ⭐ 视觉干净
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "on",
+
+  // ⭐ 光标更清晰（可选）
+  "editor.cursorBlinking": "solid"
+}
+}
